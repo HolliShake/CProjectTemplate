@@ -6,6 +6,10 @@
  */
 
 int start(int argc, char* argv[]) {
+    /**
+     * EXAMPLES
+     * Your code here. 
+     */
     Array_string_t_t *arr = array_string_t_new(3, (string_t[]) {"foo", "bar", "baz"});
     array_string_t_push(arr, "qux");
     array_string_t_push(arr, "abc");
